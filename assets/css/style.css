@@ -14,25 +14,17 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-image: url(../images/hero.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
     border-bottom: 1px solid rgba(238, 59, 89, 0.7);
+    background: linear-gradient(rgba(255,153,153,0.5), rgba(192,192,192, 0.5));
 }
 
 header h1 a {
     font-weight: bold;
     font-size: 36px;
-    background-color: rgb(238, 59, 89);
-    color: white;
+    color: rgb(238, 59, 89);
     border-radius: 15px;
     padding: 10px;
     margin: 0;
-}
-
-header h1 a:hover {
-    opacity: 0.7;
 }
 
 header a {
@@ -62,7 +54,7 @@ header nav ul li a {
     color: rgb(238, 59, 89);
 }
 
-header nav ul li a:hover {
+header h1 a:hover, header nav ul li a:hover {
     background-color: rgb(238, 59, 89);
     color: white;
     border-radius: 15px;
@@ -78,8 +70,7 @@ header nav ul li a:hover {
 .hero {
     background-image: url(../images/hero.jpg);
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background-position: center top;
     height: 550px;
     display: flex;
     flex-wrap: wrap;
