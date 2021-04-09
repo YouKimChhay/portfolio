@@ -62,10 +62,6 @@ header h1 a:hover, header nav ul li a:hover {
 /* header nav and footer style end */
 
 
-/* utility style start */
-/* utility style end */
-
-
 /* hero style start */
 .hero {
     background-image: url(../images/hero.jpg);
@@ -86,7 +82,38 @@ header h1 a:hover, header nav ul li a:hover {
 }
 /* hero style end */
 
+
+/* utility style start */
+.flex-box {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    /* background: linear-gradient(rgba(192,192,192, 0.5), rgba(255,153,153,0.5)); */
+    color: rgb(238, 59, 89);
+}
+
+.flex-box h2 {
+    font-size: 36px;
+    padding-right: 50px;
+}
+
+.flex-box-content {
+    width: 70vw;
+    border-left: 1px solid rgb(238, 59, 89);
+    padding: 20px 40px;
+
+}
+/* utility style end */
+
+
 /* about-me style start */
+.flex-box-content p {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
 /* about-me style end */
 
 /* experience style start */
