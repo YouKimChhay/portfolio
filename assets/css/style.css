@@ -95,8 +95,9 @@ header h1 a:hover, header nav ul li a:hover {
 }
 
 .flex-box h2 {
-    font-size: 36px;
-    padding-right: 50px;
+    font-size: 28px;
+    /* padding-right: 50px; */
+    width: 240px;
 }
 
 .flex-box-content {
@@ -119,7 +120,43 @@ header h1 a:hover, header nav ul li a:hover {
 /* experience style start */
 /* experience style end */
 
+
 /* eq style start */
+#eq {
+    background: linear-gradient(rgba(255,209,229, 0.5), rgba(255,153,153,0.5));
+}
+
+.eq-grid-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+}
+
+.eq-grid-head {
+    grid-column: 2;
+    line-height: 1.7;
+    font-size: 18px;
+}
+
+.eq-grid-item {
+    padding-bottom: 10px;
+}
+
+.eq-grid-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.eq-grid-item ul {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.eq-grid-item ul li {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
 /* eq style end */
 
 /* core-skills style start */
