@@ -59,6 +59,27 @@ header h1 a:hover, header nav ul li a:hover {
     color: white;
     border-radius: 15px;
 }
+
+footer {
+    margin: 20px auto;
+    text-align: center;
+    width: 80%;
+    border-top: 1px solid rgb(238, 59, 89);
+}
+
+footer p {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(238, 59, 89);
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
 /* header nav and footer style end */
 
 
