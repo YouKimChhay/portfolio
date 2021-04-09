@@ -196,7 +196,24 @@ header h1 a:hover, header nav ul li a:hover {
 /* competitions style start */
 /* competitions style end */
 
+
 /* contact-me style start */
+.flex-box-content ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-box-content ul li a {
+    text-decoration: none;
+    color: rgb(238, 59, 89);
+    font-size: 20px;
+}
+
+.flex-box-content ul li a:hover {
+    text-decoration: underline;
+}
 /* contact-me style end */
 
 /* media queries for smaller laptop screen */
