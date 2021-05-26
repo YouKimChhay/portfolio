@@ -46,8 +46,10 @@
     <section id="particle-simulator" class="detail-section">
       <h3>Particle Simulator</h3>
       <h4>Processing</h4>
-      <p>Click on the photo to run the program!</p>
+      <p>The program is running below this image.</p>
+      <p>Refresh the page to restart the program.</p>
       <img src="./assets/images/particle-simulator.jpg">
+      <canvas id="ps-canvas" data-processing-sources="particleSimulator.pde" tabindex="0"></canvas>
     </section>
 
     <!-- E2: JavaScript Quiz -->
@@ -88,6 +90,10 @@
   <footer>
     <p>&copy; 2021 You Kim Chhay's <a href="./index.html">Portfolio.</a></p>
   </footer>
+
+  <!-- script -->
+  <script type="text/javascript" src="./processing.min.js"></script>
+  <script type="text/javascript" src="./assets/js/script.js"></script>
 </body>
 
 </html>
