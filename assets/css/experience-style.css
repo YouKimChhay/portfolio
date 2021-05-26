@@ -2,6 +2,10 @@
   color: rgb(238, 59, 89);
 }
 
+footer p {
+  color: black;
+}
+
 main {
   width: 80%;
   margin: auto;
