@@ -103,6 +103,17 @@
 
 
 /* competitions style start */
+#competitions {
+  background: linear-gradient(rgba(255,209,229, 0.5), rgba(255,153,153,0.5));
+}
+
+#competitions ul {
+  margin: 20px 30px;
+}
+
+#competitions li {
+  margin-bottom: 10px;
+}
 /* competitions style end */
 
 
