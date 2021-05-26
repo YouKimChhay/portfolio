@@ -37,7 +37,7 @@
 .eq-grid-container {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   align-items: center;
 }
 
@@ -112,6 +112,7 @@
 }
 
 #competitions li {
+  font-size: 18px;
   margin-bottom: 10px;
 }
 /* competitions style end */
@@ -119,4 +120,34 @@
 
 /* media queries for smaller laptop screen */
 /* media queries for tablets */
+
+
 /* media queries for phones */
+@media screen and (max-width: 575px) {
+
+  .eq-grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .eq-grid-head {
+    grid-column: 1;
+    padding-left: 10px;
+  }
+
+  .eq-grid-item h3 {
+    margin-top: 30px;
+  }
+
+  .skill-grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-grid-item-bg {
+    background: white;
+  }
+
+  .skill-grid-head {
+    background: linear-gradient(rgba(255,153,153,0.5), rgba(255,209,229, 0.5), rgba(255, 255, 255, 0.5));
+  }
+}

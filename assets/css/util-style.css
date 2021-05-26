@@ -128,3 +128,56 @@ footer a:hover {
   text-decoration: underline;
 }
 /* contact-me style end */
+
+
+/* media queries for smaller laptop screen */
+@media screen and  (max-width: 1100px) {
+  header h1 {
+    margin-bottom: 20px;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+}
+
+@media screen and  (max-width: 980px) {
+  header nav ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  header nav ul li {
+    margin: 15px auto;
+  }
+}
+
+
+/* media queries for tablets */
+@media screen and (max-width: 840px) {
+  header nav ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 2fr;
+  }
+}
+
+
+/* media queries for phones */
+@media screen and  (max-width: 575px){
+  header nav ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .flex-box {
+    padding: 20px 5px;
+  }
+
+  .contact-details ul li {
+    margin-bottom: 20px;
+  }
+
+  .contact-details ul li a {
+    padding: 20px;
+  }  
+}
