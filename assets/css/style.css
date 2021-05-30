@@ -33,6 +33,27 @@
 /* about-me style end */
 
 
+/* projects style start */
+#projects-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+#projects img {
+  width: 300px;
+  height: 300px;
+  border: 1px solid rgb(238, 59, 89);
+  margin-bottom: 20px;
+}
+
+#projects-body h3 a {
+  color: rgb(238, 59, 89);
+}
+/* projects style end */
+
+
 /* eq style start */
 #eq {
   background: linear-gradient(rgba(255,209,229, 0.5), rgba(255,153,153,0.5));
