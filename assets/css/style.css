@@ -26,6 +26,10 @@
   line-height: 1.2;
   margin-bottom: 30px;
 }
+
+.flex-box-content p a {
+  color: rgb(238, 59, 89);
+}
 /* about-me style end */
 
 
