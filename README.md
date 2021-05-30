@@ -1,9 +1,12 @@
 # Professional Portfolio
 
+## Web Link
+(to be completed)
+
 ## Purpose
 To show case about:
 * my education
-* my work experience (in software technology)
+* my projects
 * my volunteer experience
 * my contact details
 
@@ -13,4 +16,4 @@ To show case about:
 * GitHub
 
 ## Contribution
-You Kim Chhay
+Copyright &copy; You Kim Chhay 2021
