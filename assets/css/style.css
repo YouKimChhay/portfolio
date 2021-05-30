@@ -48,7 +48,7 @@
   margin-bottom: 20px;
 }
 
-#projects-body h3 a {
+#projects h3 a {
   color: rgb(238, 59, 89);
 }
 /* projects style end */
@@ -167,10 +167,21 @@
 
 /* media queries for smaller laptop screen */
 /* media queries for tablets */
+@media screen and (max-width: 1001px) {
+  #projects img {
+    width: 300px;
+    height: auto;
+  }
+}
 
 
 /* media queries for phones */
 @media screen and (max-width: 575px) {
+
+  #projects img {
+    width: 200px;
+    height: auto;
+  }
 
   .eq-grid-container {
     grid-template-columns: 1fr;
