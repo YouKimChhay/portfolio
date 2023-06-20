@@ -128,9 +128,9 @@
 
 
 /* competitions style start */
-#competitions {
+/* #competitions {
   background: linear-gradient(rgba(255,209,229, 0.5), rgba(255,153,153,0.5));
-}
+} */
 
 #competitions ul {
   margin: 20px 30px;
@@ -144,6 +144,10 @@
 
 
 /* volunteer style start */
+#volunteer {
+  background: linear-gradient(rgba(255,209,229, 0.5), rgba(255,153,153,0.5));
+}
+
 .volunteer-item {
   margin-bottom: 30px;
 }
@@ -176,12 +180,12 @@
 
 
 /* media queries for phones */
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 800px) {
 
-  #projects img {
+  /* #projects img {
     width: 200px;
     height: auto;
-  }
+  } */
 
   .eq-grid-container {
     grid-template-columns: 1fr;
