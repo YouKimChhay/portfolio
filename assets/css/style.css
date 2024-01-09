@@ -392,6 +392,12 @@ footer .nav a:hover {
 
 /* responsive */
 
+@media (pointer:coarse) {
+  #projects .card-description {
+    display: block;
+  }
+}
+
 @media screen and (min-width: 1300px) {
   #tech-expedition .container {
     justify-content: center;
