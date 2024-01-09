@@ -67,7 +67,7 @@ void initialize ()
   for (int i = 0; i < NPART; i++)
   {
     x[i] = random(drawingRect[LEFT], width);
-    y[i] = random(-height * 2, -height / 3);  // When you run the program, you have to wait a little while before the particles show up.
+    y[i] = random(-height, 0);  // When you run the program, you have to wait a little while before the particles show up.
     diameter[i] = random(3, 30);
     alive[i] = true;
   }
