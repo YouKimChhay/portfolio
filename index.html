@@ -3,280 +3,624 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>You Kim Chhay</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <link rel="stylesheet" href="./assets/css/util-style.css">
+
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon/favicon-32x32.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|Salsa|Roboto+Condensed">
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <script src="https://kit.fontawesome.com/0a27dfcdde.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+    integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <!-- navigation -->
-  <header>
-    <h1><a href="./">You Kim Chhay</a></h1>
-    <nav>
-      <ul>
-        <li><a href="#about-me">About Me</a></li>
-        <li><a href="#core-skills">Core Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li id="eq-nav"><a href="#eq">Educational Qualifications</a></li>
-        <li><a href="#competitions">Competitions</a></li>
-        <li><a href="#volunteer">Volunteer</a></li>
-        <li><a href="#contact-me">Contact Me</a></li>
-      </ul>
-    </nav>
-  </header>
 
   <!-- hero -->
-  <section class="hero">
-    <p>
-      They say a person needs just three things to be truly happy in this world:
-      someone to love, something to do, and something to hope for.
-      <br /> -Tom Bodett
-    </p>
-  </section>
+  <header>
+    <div id="navbar">
+      <div id="logo">
+        <a href=""><img src="/assets/images/favicon/android-chrome-192x192-white.png" alt="my-logo" /></a>
+      </div>
 
-  <!-- about me -->
-  <section id="about-me">
-    <div class="flex-box">
-      <h2>About Me</h2>
-      <div class="flex-box-content">
-        <p>
-          My name is You Kim Chhay. Call me Kim!
-          In 2020, I graduated from Macquarie University (Sydney, Australia)
-          with a Bachelor of Information Technology majoring in Software Technology.
-        </p>
-        <p>
-          I am currently taking distance education courses to complete a
-          Master's degree in Computer Science at Maharishi International University (Iowa, United States).
-          <b>I am available to work full-time as W2 employee under CPT.</b>
-        </p>
-        <p>
-          My passion is to work in software development/software engineering projects
-          that build useful software to solve real-world problems and to improve quality of life.
-        </p>
-        <p>
-          My current plan is to find a job and gain work experience.
-          I hope to put my ability and knowledge to good use with hard-working, curiosity and desire to learn new
-          things.
-        </p>
-        <p>
-          In my spare time, I like playing video games. If I feel stressed, I love going to the beach (at least while I
-          was in Sydney).
-          Look at the sea, take a deep breath and walk barefood on sand help to refresh my mind and boost my performance
-          the next day.
-        </p>
-        <p>
-          <a href="./Youkim_Chhay_Resume.pdf" download>Download my resume!</a>
-        </p>
+      <div class="nav">
+        <a href="#tech-expedition">TECH EXPEDITION</a>
+        <a href="#education">EDUCATION</a>
+        <a href="#projects">PROJECTS</a>
+      </div>
+
+      <div class="contact-icons">
+        <a href="https://www.linkedin.com/in/youkimchhay/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/YouKimChhay" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="mailto:youkim.chhay@outlook.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
       </div>
     </div>
-  </section>
 
-  <!-- core skills -->
-  <section id="core-skills">
-    <div class="flex-box">
-      <h2>Core Skills</h2>
-      <div class="flex-box-content skill-grid-container">
-        <div class="skill-grid-item skill-grid-head skill-grid-item-bg">Language</div>
-        <div class="skill-grid-item skill-grid-item-bg">
-          <ul>
-            <li>English</li>
-            <li>Chinese</li>
-            <li>Khmer</li>
-          </ul>
+    <div id="hero">
+      <div id="about-me">
+        <div id="about-me-text">
+          <p id="hello">HELLO THERE, WELCOME TO MY SITE</p>
+          <h2>I'm You Kim Chhay</h2>
+          <h2 id="se">A Software Engineer</h2>
+          <p class="passionate">Transforming CONCEPTS into reliable SOFTWARE SOLUTIONS</p>
+          <P class="passionate">Passionate about CLEAN CODING, ALGORITHM & DESIGN PATTERNS</P>
         </div>
-        <div class="skill-grid-item skill-grid-head skill-grid-item-bg">Software Development</div>
-        <div class="skill-grid-item skill-grid-item-bg">
-          <ul>
-            <li>Programming languages: Java, Scala, Python, Processing</li>
-            <li>Frameworks: Spring (MVC, Boot, Security, Data, AOP, Dependency Injection, Cloud)</li>
-            <li>Databases: MongoDB, SQLite, MySQL</li>
-            <li>Design Patterns: MVC, Singleton, Prototype, Observer, Session, Session Factory</li>
-            <li>Software Development Lifecycle: Agile/Scrum, Waterfall</li>
-            <li>Version Control: Git</li>
-            <li>Microsoft office: Word, Excel and PowerPoint</li>
-          </ul>
-        </div>
-        <div class="skill-grid-item skill-grid-head skill-grid-item-bg">Full-Stack Web Development - MEAN</div>
-        <div class="skill-grid-item skill-grid-item-bg">
-          <ul>
-            <li>Frameworks: Angular, NodeJs, Express, Django</li>
-            <li>Web Services: REST, JSON</li>
-            <li>Front-end web development: HTML, CSS, JavaScript, JQuery, AJAX</li>
-            <li>Back-end web development: NodeJs, Express, MongoDB</li>
-            <li>Add-on: CSS responsive design, ES6</li>
-          </ul>
-        </div>
-        <div class="skill-grid-item skill-grid-head skill-grid-item-bg">Individual</div>
-        <div class="skill-grid-item skill-grid-item-bg">
-          <ul>
-            <li>Good time management</li>
-            <li>Good organisational skill</li>
-            <li>Good problem-solving skills</li>
-            <li>Self-independent and self-oriented</li>
-          </ul>
-        </div>
-        <div class="skill-grid-item skill-grid-head skill-grid-item-bg">Teamwork</div>
-        <div class="skill-grid-item skill-grid-item-bg">
-          <ul>
-            <li>
-              Having the ability to work in a team, gained through my voluntary works,
-              participation in research projects and participation in coding competitions.
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- projects overview -->
-  <section id="projects">
-    <div class="flex-box">
-      <h2>Projects</h2>
-      <div class="flex-box-content">
-        <div id="projects-body">
-          <div>
-            <p><a href="./projects/#particle-simulator" target="_blank">Particle Simulator</a></p>
-            <img src="./assets/images/particle-simulator.jpg">
+        <div class="contact-icons">
+          <a href="https://www.linkedin.com/in/youkimchhay/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/YouKimChhay" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="mailto:youkim.chhay@outlook.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+
+        <div id="about-me-contact">
+          <div id="hire-me-button">
+            <a class="contact-button" href="mailto:youkim.chhay@outlook.com">Hire Me</a>
           </div>
-          <div>
-            <p><a href="./projects/#eventizer" target="_blank">Eventizer</a></p>
-            <img src="./assets/images/eventizer.jpg">
-          </div>
-          <div>
-            <p><a href="./projects/#ykc-bookstore" target="_blank">YKC Bookstore</a></p>
-            <img src="./assets/images/ykc-bookstore.jpg">
+          <div id="download-resume-button">
+            <a class="contact-button" href="/Youkim_Chhay_Resume.pdf" download="">Download My Resume</a>
           </div>
         </div>
-        <h3><a href="./projects" target="_blank">View more of my projects!</a></h3>
+      </div>
+
+      <div id="hero-photo">
+        <img src="/assets/images/hero/profile.jpg" alt="my profile" />
+      </div>
+    </div>
+  </header>
+
+  <!-- tech expedition -->
+  <section id="tech-expedition">
+    <h2>Tech Expedition</h2>
+    <div class="container">
+      <div class="tech-timeline">
+        <div class="horizontal-line horizontal-line-short"></div>
+        <div class="timeline-node">
+          <div class="timeline-circle"><span>2013</span></div>
+          <div class="timeline-description">
+            <ul>
+              <li>
+                <img class="language-icon"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html5" />
+              </li>
+              <li>
+                <img class="language-icon"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="css3" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="horizontal-line"></div>
+        <div class="timeline-node">
+          <div class="timeline-circle"><span>2017</span></div>
+          <div class="timeline-description">
+            <ul>
+              <li>
+                <img class="language-icon"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/processing/processing-original.svg"
+                  alt="processing" />
+              </li>
+              <li>
+                <img class="language-icon" src="https://img.icons8.com/fluency/48/visual-basic.png"
+                  alt="visual-basic" />
+              </li>
+              <li>
+                <img class="language-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                  alt="git" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="horizontal-line"></div>
+        <div class="timeline-node">
+          <div class="timeline-circle"><span>2018</span></div>
+          <div class="timeline-description">
+            <ul>
+              <li>
+                <img class="language-icon"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="java" />
+              </li>
+              <li>
+                <img class="language-icon" src="https://img.icons8.com/matisse/100/sql.png" alt="sql" />
+              </li>
+              <li>
+                <img class="language-icon" src="https://img.icons8.com/color/48/c-programming.png"
+                  alt="c-programming" />
+              </li>
+              <li>
+                <img class="language-icon" src="https://img.icons8.com/nolan/64/c-sharp-logo.png" alt="c-sharp-logo" />
+              </li>
+              <li>
+                <i class="devicon-unity-original" style="font-size: 32px;"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="horizontal-line"></div>
+        <div class="timeline-node">
+          <div class="timeline-circle"><span>2019</span></div>
+          <div class="timeline-description">
+            <ul>
+              <li>
+                <img class="language-icon"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python" />
+              </li>
+              <li>
+                <img class="language-icon"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" alt="scala" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="horizontal-line"></div>
+        <div class="timeline-node">
+          <div class="timeline-circle"><span>2020</span></div>
+          <div class="timeline-description">
+            <ul>
+              <li>
+                <i class="devicon-django-plain" style="font-size: 32px;"></i>
+              </li>
+              <li>
+                <img class="language-icon"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" alt="sqlite" />
+              </li>
+              <li><img class="language-icon" src="https://img.icons8.com/color/48/javascript--v1.png"
+                  alt="javascript--v1" />
+              </li>
+              <li>
+                <img class="language-icon"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg"
+                  alt="jquery" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="horizontal-line"></div>
+        <div class="timeline-node">
+          <div class="timeline-circle"><span>2021</span></div>
+          <div class="timeline-description">
+            <ul>
+              <li>
+                <img class="language-icon"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="nodejs" />
+              </li>
+              <li>
+                <i class="devicon-express-original" style="font-size: 32px;"></i>
+              </li>
+              <li>
+                <img class="language-icon"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="reactjs" />
+              </li>
+              <li>
+                <img class="language-icon"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="mysql" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="horizontal-line"></div>
+        <div class="timeline-node">
+          <div class="timeline-circle"><span>2023</span></div>
+          <div class="timeline-description">
+            <ul>
+              <li>
+                <img class="language-icon"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="spring" />
+              </li>
+              <li>
+                <img class="language-icon" src="https://img.icons8.com/officel/80/spring-logo.png"
+                  alt="spring-boot-icon" />
+              </li>
+              <li>
+                <img class="language-icon"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
+                  alt="angularjs" />
+              </li>
+              <li>
+                <img class="language-icon"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="mongodb" />
+              </li>
+              <li>
+                <img class="language-icon"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+                  alt="postgresql" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="horizontal-line"></div>
+        <div class="timeline-node">
+          <div class="timeline-circle"><span>2024</span></div>
+          <div class="timeline-description">
+            <ul>
+              <li>
+                <img class="language-icon" src="https://img.icons8.com/nolan/64/amazon-web-services.png"
+                  alt="amazon-web-services" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="horizontal-line horizontal-line-short"></div>
       </div>
     </div>
   </section>
 
-  <!-- educational qualifications -->
-  <section id="eq">
-    <div class="flex-box">
-      <h2>Educational Qualifications</h2>
-      <div class="flex-box-content eq-grid-container">
-        <div class="eq-grid-item">
-          <h3>Master of Science in Computer Science</h3>
-          <ul>
-            <li>Maharishi International University (Iowa, United States)</li>
-            <li>Currently taking distance education courses</li>
-            <li>Available to work full-time as W2 employee</li>
-            <li>Cumulative GPA (4-point scale): 4.00</li>
+  <!-- education -->
+  <section class="journey" id="education">
+    <h2>Education</h2>
+    <div class="container">
+      <div class="card">
+        <img class="card-image" src="/assets/images/education/sydney.jpg" alt="Sydney">
+        <div class="card-content">
+          <h4>The Journey Began!</h4>
+          <p class="card-date">October 2017 - Australia</p>
+          <ul class="card-description">
+            <li>✈️ Realized the "Study Abroad" dream</li>
+            <li>🦘 Landed in Australia for the 1st time</li>
+            <li>🎒 Commenced IT diploma studies</li>
           </ul>
         </div>
-        <div class="eq-grid-item eq-grid-head">October 2022 - <br /> Present</div>
-        <div class="eq-grid-item">
-          <h3>Bachelor of Information Technology</h3>
-          <ul>
-            <li>Macquarie University (Sydney, Australia)</li>
-            <li>Majoring in Software Technology</li>
-            <li>ASIAN Scholarship</li>
-            <li>Merit List</li>
-            <li>Macquarie University Award for Academic Excellence</li>
-            <li>WAM: 90</li>
-          </ul>
-        </div>
-        <div class="eq-grid-item eq-grid-head">July 2018 - <br /> July 2020</div>
-        <div class="eq-grid-item">
-          <h3>Diploma of Information Technology</h3>
-          <ul>
-            <li>Macquarie University International College (MUIC) (Sydney, Australia)</li>
-            <li>STEM Scholarship</li>
-            <li>MUIC Award for Academic Excellence</li>
-            <li>GPA (7-point scale): 6.75</li>
-          </ul>
-        </div>
-        <div class="eq-grid-item eq-grid-head">October 2017 - <br /> July 2018</div>
-        <div class="eq-grid-item">
-          <h3>High School (Phnom Penh, Cambodia)</h3>
-          <ul>
-            <li>High School Examination Overall Grade A</li>
-            <li>Grade 10 - 12 Pannasastra International School (PSIS)</li>
-            <li>Grade 7 - 9 Chbar Ampov High School</li>
-            <li>Grade 1 - 6 Chbar Ampov Primary School</li>
-          </ul>
-        </div>
-        <div class="eq-grid-item eq-grid-head">September 2004 - <br /> August 2016</div>
       </div>
+      <!-- Repeat ends -->
+      <div class="card">
+        <img class="card-image" src="/assets/images/education/diploma.jpg" alt="diploma">
+        <div class="card-content">
+          <h4>Milestone 1: Completed!</h4>
+          <p class="card-date">July 2018 - Australia</p>
+          <ul class="card-description">
+            <li>🎓 Graduated Diploma</li>
+            <li>🏅 Awarded for Academic Excellence</li>
+            <li>👩‍💻 Embarked on a Bachelor's degree</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Repeat ends -->
+      <div class="card">
+        <img class="card-image" src="/assets/images/education/graduationBear.jpg" alt="graduation bear">
+        <div class="card-content">
+          <h4>Milestone 2: Completed!</h4>
+          <p class="card-date">August 2020 - Australia</p>
+          <ul class="card-description">
+            <li>👩‍🎓 Graduated Bachelor's</li>
+            <li>🏅 Awarded Academic Excellence</li>
+            <li>📜 Got put on the Merit list</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Repeat ends -->
+      <div class="card">
+        <img class="card-image" src="/assets/images/education/youtubeCover.jpg" alt="YouTube Cover">
+        <div class="card-content">
+          <h4>Spin Off 1: Unfolded!</h4>
+          <p class="card-date">September 2020 - Australia</p>
+          <ul class="card-description">
+            <li><i class="fa-brands fa-youtube" style="color: red;"></i>&nbsp; Started a YouTube channel</li>
+            <li>🪄 Learned video editing</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Repeat ends -->
+      <div class="card">
+        <img class="card-image" src="/assets/images/education/webDev.jpg" alt="web development">
+        <div class="card-content">
+          <h4>Online Study 1: Commenced!</h4>
+          <p class="card-date">March 2021 - Cambodia</p>
+          <ul class="card-description">
+            <li>🔎 Dived deeper into Web Dev</li>
+            <li>🛠️ Built several mini web projects</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Repeat ends -->
+      <div class="card">
+        <img class="card-image" src="/assets/images/education/chinese.jpg" alt="chinese letters">
+        <div class="card-content">
+          <h4>Spin Off 2: Unfolded!</h4>
+          <p class="card-date">September 2021 - Cambodia</p>
+          <ul class="card-description">
+            <li>📚 Picked up Mandarin Chinese</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Repeat ends -->
+      <div class="card">
+        <img class="card-image" src="/assets/images/education/hollywood.jpg" alt="hollywood sign">
+        <div class="card-content">
+          <h4>The Next Chapter Began!</h4>
+          <p class="card-date">October 2022 - United States</p>
+          <ul class="card-description">
+            <li>&#x1F60A; Went abroad for the 2nd time</li>
+            <li>🛬 Landed in Los Angeles, CA</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Repeat ends -->
+      <div class="card">
+        <img class="card-image" src="/assets/images/education/miu.jpg" alt="miu">
+        <div class="card-content">
+          <h4>Milestone 3: Pursuing!</h4>
+          <p class="card-date">October 2022 - United States</p>
+          <ul class="card-description">
+            <li>✈️ Traveled to Fairfield, IA</li>
+            <li>💼 Started Master's degree</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Repeat ends -->
+      <div class="card">
+        <img class="card-image" src="/assets/images/education/aws.jpg" alt="amazon web services">
+        <div class="card-content">
+          <h4>Online Study 2: Commenced!</h4>
+          <p class="card-date">June 2023 - United States</p>
+          <ul class="card-description">
+            <li>🏫 Completed on-campus studies</li>
+            <li>💻 Started online courses</li>
+            <li>👩‍💻 Completed Advanced Software Dev</li>
+            <li>🤖 Taking basic AI/ML</li>
+            <li>☁️ Taking Cloud Computing Techs</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Repeat ends -->
+      <div class="card">
+        <img class="card-image" src="/assets/images/education/swe.jpg" alt="software development">
+        <div class="card-content">
+          <h4>What's Next?</h4>
+          <p class="card-date">Present - United States</p>
+          <ul class="card-description">
+            <li>🕵️‍♀️ Seeking a software engineer role</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Repeat ends -->
     </div>
   </section>
 
-  <!-- competitions -->
-  <section id="competitions">
-    <div class="flex-box">
-      <h2>Competitions</h2>
-      <div class="flex-box-content">
-        <h3>International Collegiate Programming Contest Sydney Site</h3>
-        <ul>
-          <li>ACM South Pacific Divisional Programming Contest</li>
-          <li>Team of three</li>
-          <li>Participate in 20 October 2018</li>
-          <li>Participate in 21 September 2019</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- volunteer -->
-  <section id="volunteer">
-    <div class="flex-box">
-      <h2>Volunteer</h2>
-      <div class="flex-box-content">
-        <div class="volunteer-item">
-          <h3>Volunteer as a tutor for Girls' Programming Network (GPN)</h3>
-          <h4>August 2018 - August 2019</h4>
-          <ul>
-            <li>Sydney, Australia</li>
-            <li>Helping girls compete in the coding challenges</li>
-            <li>Helping girls build their code and play games</li>
-          </ul>
+  <!-- projects -->
+  <section class="journey" id="projects">
+    <h2>Projects</h2>
+    <div class="container project-container">
+      <div class="card">
+        <img class="card-image" id="ps-card" onclick="togglePopup()"
+          src="/assets/images/projects/particle-simulator.jpg" alt="particle-simulator" />
+        <div class="card-content">
+          <h4>Particle Simulator</h4>
+          <div class="card-description">
+            <div class="tech-description">
+              <img class="language-icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/processing/processing-original.svg"
+                alt="processing" />
+            </div>
+          </div>
         </div>
-        <div class="volunteer-item">
-          <h3>Computing Undergraduate Summer Research Project</h3>
-          <h4>10 - 14 December 2018</h4>
-          <ul>
-            <li>Macquarie University</li>
-            <li>Research topic: Make a Request for Comment (RFC) to add "generic" in Whiley</li>
-            <li>Task: Research the different possibilities on how other programming languages
-              design and implement "generics" to identify which fit best
-              existing Whiley syntax and semantics.</li>
-          </ul>
-        </div>
-        <div class="volunteer-item">
-          <h3>Computing Undergrade Winter Research Project</h3>
-          <h4>9 - 13 July 2018</h4>
-          <ul>
-            <li>Macquarie University</li>
-            <li>Research topic: Cognition of coding - how do people learn to program</li>
-            <li>Task: Data entry and data analysis</li>
-          </ul>
+        <div id="popup-card">
+          <div class="popup-content">
+            <span class="close-btn" onclick="togglePopup()">&times;</span>
+            <h2>Particle Simulator</h2>
+            <p>Refresh the page to restart the program.</p>
+            <canvas id="ps-canvas" data-processing-sources="particleSimulator.pde" tabindex="0"></canvas>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- contact me -->
-  <section id="contact-me">
-    <div class="flex-box">
-      <h2>Contact Me</h2>
-      <div class="flex-box-content contact-details">
-        <ul>
-          <li><a href="mailto:youkim.chhay@outlook.com">Email</a></li>
-          <li><a href="https://www.linkedin.com/in/youkimchhay" target="_blank">LinkedIn</a></li>
-          <li><a href="https://github.com/youkimchhay" target="_blank">GitHub</a></li>
-          <li><a href="./Youkim_Chhay_Resume.pdf" download>Resume</a></li>
-        </ul>
+      <!-- Repeat ends -->
+      <div class="card">
+        <a href="https://eventizer.herokuapp.com/event" target="_blank">
+          <img class="card-image" src="/assets/images/projects/eventizer.jpg" alt="eventizer" /></a>
+        <div class="card-content">
+          <h4>Eventizer</h4>
+          <div class="card-description">
+            <div class="tech-description">
+              <img class="language-icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
+                alt="angularjs" />
+              <img class="language-icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="nodejs" />
+              <img class="language-icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="express" />
+              <img class="language-icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="mongodb" />
+              <img class="language-icon" src="https://img.icons8.com/color/48/amazon-web-services.png"
+                alt="amazon-web-services" />
+              <img class="language-icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg" alt="heroku" />
+            </div>
+          </div>
+        </div>
       </div>
+      <!-- Repeat ends -->
+      <div class="card">
+        <a href="https://github.com/vannygigo7/waa-project-backend" target="_blank">
+          <img class="card-image" src="/assets/images/projects/onlineAuctionSystem.jpg" alt="onlineAuctionSystem" />
+        </a>
+        <div class="card-content">
+          <h4>Secure Online Auction System</h4>
+          <div class="card-description">
+            <div class="tech-description">
+              <img class="language-icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="react" />
+              <img class="language-icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="spring" />
+              <img class="language-icon" src="https://img.icons8.com/officel/80/spring-logo.png"
+                alt="spring-boot-icon" />
+              <img class="language-icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="mysql" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Repeat ends -->
+      <div class="card">
+        <a href="https://github.com/teke1566/EAOnlineRetailSystem" target="_blank">
+          <img class="card-image" src="/assets/images/projects/onlineRetailSystem.jpg" alt="onlineRetailSystem" />
+        </a>
+        <div class="card-content">
+          <h4>Online Retail System</h4>
+          <div class="card-description">
+            <div class="tech-description">
+              <img class="language-icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="spring" />
+              <img class="language-icon" src="https://img.icons8.com/officel/80/spring-logo.png"
+                alt="spring-boot-icon" />
+              <img class="language-icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+                alt="postgresql" />
+            </div>
+          </div>
+          <!-- <ul class="card-description">
+            <li>🎓 Graduated Diploma</li>
+            <li>🏅 Awarded for Academic Excellence</li>
+            <li>👩‍💻 Embarked on a Bachelor's degree</li>
+          </ul> -->
+        </div>
+      </div>
+      <!-- Repeat ends -->
+      <div class="card">
+        <a href="https://youkimchhay-weather-dashboard.herokuapp.com/" target="_blank">
+          <img class="card-image" src="/assets/images/projects/weather-dashboard.jpg" alt="weather-dashboard" />
+        </a>
+        <div class="card-content">
+          <h4>Weather Dashboard</h4>
+          <div class="card-description">
+            <div class="tech-description">
+              <img class="language-icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="nodejs" />
+              <img class="language-icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="express" />
+              <img class="language-icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                alt="bootstrap" />
+              <img class="language-icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg" alt="heroku" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Repeat ends -->
+      <div class="card">
+        <a href="https://ykc-bookstore.herokuapp.com/" target="_blank">
+          <img class="card-image" src="/assets/images/projects/ykc-bookstore.jpg" alt="ykc-bookstore" />
+        </a>
+        <div class="card-content">
+          <h4>YKC Bookstore</h4>
+          <div class="card-description">
+            <div class="tech-description">
+              <img class="language-icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html" />
+              <img class="language-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                alt="css" />
+              <img class="language-icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="nodejs" />
+              <img class="language-icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="express" />
+              <img class="language-icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                alt="bootstrap" />
+              <img class="language-icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg" alt="heroku" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Repeat ends -->
+      <div class="card">
+        <a href="https://youkimchhay.github.io/password-generator/" target="_blank">
+          <img class="card-image" src="/assets/images/projects/password-generator.jpg" alt="password-generator" />
+        </a>
+        <div class="card-content">
+          <h4>Password Generator</h4>
+          <div class="card-description">
+            <div class="tech-description">
+              <img class="language-icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html" />
+              <img class="language-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                alt="css" />
+              <img class="language-icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                alt="javascript" />
+              <img class="language-icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Repeat ends -->
+      <div class="card">
+        <a href="https://youkimchhay.github.io/daily-planner/" target="_blank">
+          <img class="card-image" src="/assets/images/projects/daily-planner.jpg" alt="daily-planner" />
+        </a>
+        <div class="card-content">
+          <h4>Daily Planner</h4>
+          <div class="card-description">
+            <div class="tech-description">
+              <img class="language-icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html" />
+              <img class="language-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                alt="css" />
+              <img class="language-icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                alt="javascript" />
+              <img class="language-icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Repeat ends -->
+      <div class="card">
+        <a href="https://youkimchhay.github.io/javascript-quiz/" target="_blank">
+          <img class="card-image" src="/assets/images/projects/js-quiz-copy.jpg" alt="javascript quiz" />
+        </a>
+        <div class="card-content">
+          <h4>JavaScript Quiz</h4>
+          <div class="card-description">
+            <div class="tech-description">
+              <img class="language-icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html" />
+              <img class="language-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                alt="css" />
+              <img class="language-icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                alt="javascript" />
+              <img class="language-icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/handlebars/handlebars-original.svg"
+                alt="handlebars" />
+              <img class="language-icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Repeat ends -->
     </div>
   </section>
 
   <!-- footer -->
   <footer>
-    <p>&copy; 2023 You Kim Chhay's <a href="./">Portfolio.</a></p>
+    <div class="line"></div>
+    <div class="contact-icons">
+      <a href="https://www.linkedin.com/in/youkimchhay/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/YouKimChhay" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <a href="mailto:youkim.chhay@outlook.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+    </div>
+
+    <div class="nav">
+      <a href="">HOME</a>
+      <a href="#tech-expedition">TECH EXPEDITION</a>
+      <a href="#education">EDUCATION</a>
+      <a href="#projects">PROJECTS</a>
+    </div>
+
+    <div>
+      <p>&copy; 2024 You Kim Chhay</p>
+      <p>Icons by <a href="https://devicon.dev/">Devicon</a> and <a href="https://icons8.com">Icons8</a></p>
+    </div>
   </footer>
+
+  <!-- js scripts -->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.min.js"></script>
+  <script type="text/javascript" src="/assets/scripts/script.js"></script>
 </body>
 
 </html>
